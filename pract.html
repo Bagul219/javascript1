@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Golbal VS Local Variable</title>
+</head>
+<body>
+    <script>
+        // golbal variable declaration
+         var data =200;  
+         function a(){
+            // local variable
+            var data = 100;
+            // inside function
+            document.write("inside function :" ,data);
+         }
+        //  outside funtion 
+        document.write("outside function:" ,data);
+        document.write("<br>");
+        a();
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var</title>
+</head>
+<body>
+    <h1>JavaScript const</h1>
+   <p>Declaring a constant array dose NOT make the elements</p>
+   <p id="demo"></p>
+   <p id="demo1"></p>
+   <script>
+// Creat the array:
+const fruits =[ " apple, banana ,orenge"];
+//  dispaly the array
+document.getElementById("demo").innerHTML=fruits;
+// change thr element:
+fruits[0] ="Apricot";
+
+//  add the element:
+fruits.push("mango");
+
+// display the array
+document.getElementById("demo1").innerHTML=fruits;
+
+    </script>
+</body>
+</html>
